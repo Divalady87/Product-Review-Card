@@ -1,0 +1,91 @@
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    
+ }
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+    }
+
+    body {
+        background-color: hsl(30, 38%, 92%);
+        min-height: 100vh;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat'
+  
+    }
+
+    img {
+      width: 50%;
+       height: 350px;
+       float: left; 
+       border-radius: 15px 0 0 15px;
+       margin-right: 20px;
+    
+    }
+     
+    .price {
+        color: hsl(158, 36%, 37%);
+
+    }
+
+    h4 {
+        color: gray;
+        
+
+    }
+
+    .container {
+        background-color: white;
+        width: 500px;
+        border-radius: 25px;
+        height: 350px;
+    
+    }
+
+    p {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .sale {
+        float: right;
+    }
+    
+    .btn {
+        background-color: hsl(158, 36%, 37%);
+        float: left;
+        width: 200px;
+        border-radius: 10px;
+        height: 35px;
+        border: none;
+        color: white;
+        margin-top: 25px;
+       
+    }
+
+    .price {
+        margin-right: 10px;
+    }
+
+
+    .price, h5 {
+        display: inline;
+        font-family: 'Fraunces';
+        font-weight: 700;
+    }
+
+    h5 {
+        text-decoration: line-through;
+        color: gray;
+    }
+
+    h2 {
+        margin-right: 10px;
+        font-weight: 700;
+    }
